@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+    pentaho:
+        container_name: pentaho
+        build: pentaho
+        ports:
+            - "8080:8080"
